@@ -1,0 +1,25 @@
+@import url(general.css);
+@import url(menu.css);
+@import url(habitaciones.css);
+@import url(clientes.css);
+@import url(ventaAlimentos.css);
+@import url(tipoHabitacion.css);
+@import url(productos.css);
+
+:root{
+    --color-principal-admin: #1e1e1e;
+    --color-verde-admin: #147a01;
+    --color-mostaza-admin: #ffce00;
+    --color-text: #ffff;
+    --color-verde-flu: #2ad805;
+    --color-principal-hover: #444444;
+    --caja-verde-bajo: #537f49;
+}
+body{
+    font-family: Arial;
+    margin-left: 360px;
+}
+
+select,input:focus{
+    outline: none;
+}
